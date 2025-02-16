@@ -42,7 +42,7 @@ const FileUploader = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:9090/upload",
+        `https://trans-backend-w499.onrender.com/upload`,
         formData,
         {
           responseType: "blob",
